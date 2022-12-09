@@ -1,0 +1,26 @@
+miner@ubuntu:~/Desktop/node_circuit$ node workserHeap.js dominos.heapsnapshot
+[NUMBER OF CONTEXT] : 12
+[NUMBER OF WORKER] : 1
+Node Type : object Node Name : Window / https://www.google.com / Node Index : 2254
+Node Type : native Node Name : Worker / Node Index : 6686
+DETECT
+[NODE]Worker -- [EDGE]O -> [NODE]KC -- [EDGE]o -> [NODE]dQ -- [EDGE]bF -> [NODE]V1 -- [EDGE]0 -> [NODE](object elements) -- [EDGE]elements -> [NODE]Array -- [EDGE]a -> [NODE]Object -- [EDGE]O -> [NODE]nk -- [EDGE]$ -> [NODE]SK -- [EDGE]bF -> [NODE]V1 -- [EDGE]0 -> [NODE](object elements) -- [EDGE]elements -> [NODE]Array -- [EDGE]focus -> [NODE]Object -- [EDGE]O -> [NODE]nk -- [EDGE]closure_lm_366807 -> [NODE]HTMLDocument -- [EDGE]<symbol> -> [NODE]Window / https://www.google.com
+miner@ubuntu:~/Desktop/node_circuit$ node workserHeap.js textnow.com.heapsnapshot
+[NUMBER OF CONTEXT] : 10
+[NUMBER OF WORKER] : 1
+Node Type : object Node Name : Window / https://www.google.com / Node Index : 2236
+Node Type : native Node Name : Worker / Node Index : 6933
+DETECT
+[NODE]Worker -- [EDGE]O -> [NODE]KC -- [EDGE]o -> [NODE]dQ -- [EDGE]T -> [NODE]system / Context -- [EDGE]previous -> [NODE]system / Context -- [EDGE]context -> [NODE] -- [EDGE]Lt -> [NODE]Object -- [EDGE]9 -> [NODE] -- [EDGE]table -> [NODE]Map -- [EDGE]tW -> [NODE]system / Context -- [EDGE]context -> [NODE] -- [EDGE]init -> [NODE]Object -- [EDGE]Main -> [NODE]Object -- [EDGE]frame -> [NODE]Object -- [EDGE]recaptcha -> [NODE]Window / https://www.google.com
+
+miner@ubuntu:~/Desktop/node_circuit$ node workserHeap.js matchesfashion.com.heapsnapshot
+[NUMBER OF CONTEXT] : 12
+[NUMBER OF WORKER] : 1
+Node Type : object Node Name : Window / https://www.google.com / Node Index : 2194
+Node Type : native Node Name : Worker / Node Index : 7347
+DETECT
+[NODE]Worker -- [EDGE]O -> [NODE]KC -- [EDGE]o -> [NODE]dQ -- [EDGE]bF -> [NODE]V1 -- [EDGE]0 -> [NODE](object elements) -- [EDGE]elements -> [NODE]Array -- [EDGE]a -> [NODE]Object -- [EDGE]O -> [NODE]nk -- [EDGE]$ -> [NODE]SK -- [EDGE]bF -> [NODE]V1 -- [EDGE]0 -> [NODE](object elements) -- [EDGE]elements -> [NODE]Array -- [EDGE]focus -> [NODE]Object -- [EDGE]O -> [NODE]nk -- [EDGE]closure_lm_235820 -> [NODE]HTMLDocument -- [EDGE]<symbol> -> [NODE]Window / https://www.google.com
+
+nodes = []
+edges = []
+

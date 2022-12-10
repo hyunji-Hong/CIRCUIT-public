@@ -11,10 +11,10 @@ Principles and experimental results are discussed in [our paper](https://ieeexpl
 * ***Linux***: CIRCUIT is designed to work on any of the operating systems. However, currently, this repository only focuses on the Linux environment.
 * ***Git***
 * ***Python 3***
-* ***Others*** for 
-  * How to install prerequisite:
+* ***Others***  
+  * How to install prerequisite packages:
     ```
-    npm_requirements.sh
+    ./npm_requirements.sh
     ```
 
 
@@ -22,12 +22,26 @@ Principles and experimental results are discussed in [our paper](https://ieeexpl
 * We recommend 24 GB RAM.
 ##
 
-### Running Dicos
+### Running CIRCUIT
 
-```
-    circuit.js
-```
+#### 1. Signature generation
 
+ * To extract heap signatures for each site, execute [eval.sh](https://github.com/hyunji-Hong/CIRCUIT-public/blob/main/src/eval.sh)
+
+ ```
+ ./eval.sh
+ ```
+*  To extract mining signatures for mining sites, execute [signatureGenerator.js](https://github.com/hyunji-Hong/CIRCUIT-public/blob/main/src/signatureGenerator.js) 
+
+ ```
+node signatureGenerator.js miningsites_url
+ ```
+
+  ※ We provide sample signatures for mining sites: [miningSignature.json](https://github.com/hyunji-Hong/CIRCUIT-public/blob/main/src/miningSignature.json) 
+
+#### 2. Detection
+
+ * To detect mining sites among the general sites, execute [getResult.py](https://github.com/hyunji-Hong/CIRCUIT-public/blob/main/src/getResult.py)
 
 
 

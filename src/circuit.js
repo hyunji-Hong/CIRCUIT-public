@@ -332,9 +332,8 @@ async function detector( url) {
 
   // Get chrome & start
   const chrome = await chromeLauncher.launch( {
-    port : 9222, //기본 포트야 크롬 제어하는 포트
+    port : 9222, //default chrome port
     chromeFlags: [ '--headless', '--disable-gpu']
-    // --headless'. 지우면 크롬이 동작하는 거 볼 수 있음
   });
 
   // Chrome debuger protocol
@@ -348,7 +347,6 @@ async function detector( url) {
     const browser = await puppeteer.connect({browserWSEndpoint: webSocketDebuggerUrl});
     const [ page ] = await browser.pages();
 
-    //거의 공식 알려면 구글 좀 뒤져ㅕ봐야함
     await page.setViewport( { width : 1980, height : 1080 } );
 
     // [INIT STEP ]

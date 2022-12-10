@@ -1,0 +1,26 @@
+{
+	"webmine.cz_old" : {
+		"path" : "[NODE : 6261]Worker -- [EDGE : 477062]3 -> [NODE : 39642](object elements) -- [EDGE : 452003]elements -> [NODE : 37597]Array -- [EDGE : 451781]CURRENT_WORKERS -> [NODE : 37593]system / Context -- [EDGE : 226982]context -> [NODE : 24083]ReconnectingWebSocket -- [EDGE : 42620]ReconnectingWebSocket -> [NODE]Window / https://webmine.cz"
+	},
+	"webminepool.com_old" : {
+		"path": "[NODE : 6154]Worker -- [EDGE : 258872]0 -> [NODE : 23815](object elements) -- [EDGE : 258659]elements -> [NODE : 23808]Array -- [EDGE : 137690]workers -> [NODE : 15534]Miner -- [EDGE : 37781]miner -> [NODE]Window / http://127.0.0.1:5000"
+	},
+	"crypto-webminer.com_old" : {
+		"path": "[NODE : 6245]Worker -- [EDGE : 319712]4 -> [NODE : 30638](object elements) -- [EDGE : 144629]elements -> [NODE : 15471]Array -- [EDGE : 38711]worcy -> [NODE]Window / http://127.0.0.1:5000"
+	},
+	"crypto-loot.org_old" : {
+		"path" : "[NODE : 6303]Worker -- [EDGE : 295247]0 -> [NODE : 26071](object elements) -- [EDGE : 295241]elements -> [NODE : 26070]Array -- [EDGE : 298391]_0x32719f -> [NODE : 26403]system / Context -- [EDGE : 291557]context -> [NODE : 25656] -- [EDGE : 107891]removeWorker -> [NODE : 8815]Object -- [EDGE : 39470]CRLT -> [NODE]Window / http://127.0.0.1:5000"
+	},
+	"webminepool.com_new" : {
+		"path": "[NODE : 14983]Worker -- [EDGE : 1177298]0 -> [NODE : 91851](object elements) -- [EDGE : 1179176]elements -> [NODE : 91944]Array -- [EDGE : 301904]workers -> [NODE : 24158]Miner -- [EDGE : 545423]_this -> [NODE]Window"
+	},
+	"webmine.cz_new" : {
+		"path": "[NODE : 10976]Worker -- [EDGE : 389471]15 -> [NODE : 35510](object elements) -- [EDGE : 219863]elements -> [NODE : 22149]Array -- [EDGE : 219596]CURRENT_WORKERS -> [NODE : 22146]system / Context -- [EDGE : 225803]previous -> [NODE : 22623]system / Context -- [EDGE : 246566]context -> [NODE : 24885]messageCallback -- [EDGE : 68498]messageCallback -> [NODE]Window / https://webmine.cz"
+	},
+	"coinimp.com_new" : {
+		"path": "[NODE : 26415]Worker -- [EDGE : 1318004]worker -> [NODE : 103117]eh -- [EDGE : 2846024]15 -> [NODE : 215681](object elements) -- [EDGE : 2845658]elements -> [NODE : 215645]Array -- [EDGE : 2797847]_threads -> [NODE : 210507]aX -- [EDGE : 2846171]bz -> [NODE : 215696]system / Context -- [EDGE : 2201654]previous -> [NODE : 168509]system / Context -- [EDGE : 2738579]context -> [NODE : 206538]c0 -- [EDGE : 2738972]5 -> [NODE : 206561](object elements) -- [EDGE : 2738945]elements -> [NODE : 206559]Array -- [EDGE : 1272593]i -> [NODE : 99133]L -- [EDGE : 1237421]o -> [NODE : 95818]jo -- [EDGE : 2739029]1 -> [NODE : 206567](object elements) -- [EDGE : 2739023]elements -> [NODE : 206566]Object -- [EDGE : 483167]Yn -> [NODE : 40182]system / Context -- [EDGE : 485087]context -> [NODE : 40315] -- [EDGE : 2725427]ia -> [NODE : 205785]Object -- [EDGE : 2728382]__proto__ -> [NODE : 205944]ce -- [EDGE : 491837]__proto__ -> [NODE : 40754]L -- [EDGE : 141395]ytPubsub2Pubsub2Instance -> [NODE]Window / http://127.0.0.1:5000"
+	},
+	"coinimp.com_local" : {
+      "path": "[NODE : 25062]Worker -- [EDGE : 1283882]worker -> [NODE : 98131]eh -- [EDGE : 1283861]13 -> [NODE : 98130](object elements) -- [EDGE : 1704182]elements -> [NODE : 124583]Array -- [EDGE : 1240466]_threads -> [NODE : 94792]aX -- [EDGE : 666734]s -> [NODE : 54189]system / Context -- [EDGE : 1253945]context -> [NODE : 95685]visibleTotalHashes -- [EDGE : 1111409]visibleTotalHashes -> [NODE : 87275]Object -- [EDGE : 1111256]computed -> [NODE : 87267]Object -- [EDGE : 1117325]sealedOptions -> [NODE : 87769]a -- [EDGE : 1429838]constructor -> [NODE : 108253]Yc -- [EDGE : 522761]__proto__ -> [NODE : 46496]a -- [EDGE : 865511]componentInstance -> [NODE : 70308]It -- [EDGE : 1815365]16 -> [NODE : 132455](object elements) -- [EDGE : 1815086]elements -> [NODE : 132451]Array -- [EDGE : 1163450]children -> [NODE : 90321]It -- [EDGE : 386642]_vnode -> [NODE : 38899]Yc -- [EDGE : 637709]$root -> [NODE : 52110]a -- [EDGE : 1224869]vm -> [NODE : 94106]pr -- [EDGE : 1224941]6 -> [NODE : 94107](object elements) -- [EDGE : 1221935]elements -> [NODE : 93931]Array -- [EDGE : 1219622]subs -> [NODE : 93815]Dt -- [EDGE : 1212821]dep -> [NODE : 93433]Wt -- [EDGE : 680780]__ob__ -> [NODE : 55521]Object -- [EDGE : 1287557]2 -> [NODE : 98427](object elements) -- [EDGE : 1219547]elements -> [NODE : 93807]Array -- [EDGE : 1267811]o -> [NODE : 96840]system / Context -- [EDGE : 1202864]context -> [NODE : 92917]preventEmptyValOnInput -- [EDGE : 1111025]preventEmptyValOnInput -> [NODE : 87255]Object -- [EDGE : 1110923]methods -> [NODE : 87250]Object -- [EDGE : 1156085]sealedOptions -> [NODE : 89616]a -- [EDGE : 1212830]0 -> [NODE : 93434](object elements) -- [EDGE : 1111142]elements -> [NODE : 87262]Object -- [EDGE : 1156244]_Ctor -> [NODE : 89619]Object -- [EDGE : 1267754]a -> [NODE : 96833]Object -- [EDGE : 1265459]exports -> [NODE : 96731]Object -- [EDGE : 1264208]NZbo -> [NODE : 96648]Object -- [EDGE : 581585]c -> [NODE : 48536]e -- [EDGE : 618170]n -> [NODE : 51096]system / Context -- [EDGE : 617093]previous -> [NODE : 50999]system / Context -- [EDGE : 614063]previous -> [NODE : 50781]system / Context -- [EDGE : 585503]previous -> [NODE : 48644]system / Context -- [EDGE : 584591]context -> [NODE : 48642]n -- [EDGE : 118373]_ -> [NODE]Window / https://www.coinimp.com"
+	}
+}
